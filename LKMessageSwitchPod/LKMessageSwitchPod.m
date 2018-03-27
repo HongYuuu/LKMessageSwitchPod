@@ -218,7 +218,7 @@ CHDeclareMethod0(void, MMUIViewController, messageCallBack){
         btn.frame = CGRectMake(self.view.frame.size.width-100-2, 74, 100, 40);
         btn.backgroundColor = [[UIColor blackColor]colorWithAlphaComponent:0.8];
         btn.tintColor = [UIColor whiteColor];
-        [btn setTitle:[LKNewestMsgManager sharedInstance].content forState:UIControlStateNormal];\
+        [btn setTitle:[LKNewestMsgManager sharedInstance].content forState:UIControlStateNormal];
         btn.username = [LKNewestMsgManager sharedInstance].username;
         btn.clipsToBounds = YES;
         btn.layer.cornerRadius = 10;
